@@ -1,0 +1,207 @@
+.container {
+    background-color: #fff;
+    width: 382px;
+    height: 547px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container p {
+    color: #333333;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.container label {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.containerForm {
+    width: 90%;
+    padding: 5px;
+}
+
+.containerForm h2 {
+    font-size: 28px;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: -8px;
+}
+
+.containerForm input {
+    border-radius: 16px;
+    border: #999999 1px ;
+    width: 334px;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+}
+
+.containerForm input::placeholder {
+    color: #CCCCCC;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.containerEntrada {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.containerEntrada label {
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+#containerEntrada label {
+    margin-top: 35px;
+}
+
+.containerEntrada input {
+    border-radius: 16px;
+    border: #999999 1px solid;
+    width: 334px;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+}
+
+.containerEntrada input::placeholder {
+    color: #CCCCCC;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.containerButton {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerButton button {
+    background-color: #FA641E;
+    width: 334px;
+    height: 48px ;
+    border: none;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.containerButton button:hover {
+    scale: 1.03;
+}
+
+
+.containerPais {
+    display: flex;
+    border-radius: 16px;
+    border: #999999 1px solid;
+    width: 334px;
+    height: 50px;
+    z-index: 999;
+}
+
+.containerTelefone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F0F0;
+    border-radius: 16px;
+    width: 100px;
+    height: 48px;
+    padding: 0px 10.5px;
+    z-index: 1;
+}
+
+.containerTelefone img {
+    width: 24px;
+    height: 24px;
+    color: #9F9F9F;
+}
+
+.containerTelefone img:last-child {
+    opacity: 0.3;
+    margin-top: 2.5px;
+}
+
+.containerTelefone h1 {
+    color: #9F9F9F;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0 2px 0px 4px;
+}
+
+.containerEndereco {
+    display: flex;
+    gap: 15px;
+}
+
+.containerEndereco input {
+    border-radius: 16px;
+    border: #999999 1px solid;
+    width: 105px;
+    height: 48px;
+}
+
+.containerEnderecoConteudo {
+    margin-left: -5px;
+}
+
+.containerEnderecoConteudo input {
+    width: 215px;
+    height: 48px;
+}
+
+.selectGrupo {
+    display: flex;
+    gap: 15px
+}
+
+
+.selectGrupo select {
+    display:flex;
+    border-radius: 16px;
+    border: #999999 1px solid;
+    width: 105px;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+}
+
+.selectGrupo select:has(option:disabled:checked[hidden]) {
+    color: #999;
+}
+
+.selectGrupo2 select {
+    display:flex;
+    border-radius: 16px;
+    border: #999999 1px solid;
+    width: 215px;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+}
+
+.selectGrupo3 select {
+    display:flex;
+    border-radius: 16px;
+    border: #999999 1px solid;
+    width: 335px;
+    height: 48px;
+    margin-bottom: 15px;
+    padding-left: 16px;
+    margin-bottom: 70px;
+}

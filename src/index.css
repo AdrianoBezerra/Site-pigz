@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.swiper{
+  display: flex !important;
+  flex-direction: column-reverse !important;
+  height: 100%;
+}
+
+.swiper-pagination {
+   position: sticky!important;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  opacity: 1;
+  background-color: #EEEEEE;
+  width: 88px;
+  height: 4px !important;
+  border-radius: 32px; 
+  position: static;
+
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #FA641E;
+}
+
+*{
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

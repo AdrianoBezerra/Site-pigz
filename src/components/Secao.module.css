@@ -1,0 +1,49 @@
+.backgroud {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(158deg, #FA641E, #FF881F);
+    flex-direction: column;
+    padding-bottom: 105px;
+}
+
+.backgroud1 {
+    display: flex;
+    width: 95%;
+    overflow-x: hidden;
+}
+
+.backgroud1 h1 {
+    font-size: 40px;
+    width: 80%;
+    color: #fff;
+    z-index: 999;
+}
+
+.img{
+    z-index: 0;
+    width: 20%;
+    @media (max-width: 700px) {
+        margin-left: -22%;
+    }    
+}
+
+.containerTexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTexto p {
+    width: 90%;
+    color: #fff;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.containerForm {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    width: 382px;
+    height: 472px;
+    background-color: #FAFAFA;
+    border-radius: 64px;
+    margin-bottom: 20px;
+}
+
+.containerCard {
+    padding: 30px 40px;
+}
+
+.containerCard h1 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 14px;
+}
+
+.containerCard h3 {
+    color: #666666;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.containerCard p {
+    color: #333333;
+    font-size: 14px;
+    text-align: left;
+    line-height: 14px;
+}
+
+.containerCard button {
+    background: linear-gradient(259deg, #FA641E, #FF881F);
+    color: #fff;
+    font-size: 16px;
+    width: 302px;
+    height: 56px;
+    border-radius: 32px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 136, 31, 0.7) 0 10px 12px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.containerCard button:hover {
+    scale: 1.03;
+}
+
+.containerPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 32px;
+    height: 56px;
+    margin: 40px 0 25px 0;
+    padding: 5px 22px;
+    border: none;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+}
